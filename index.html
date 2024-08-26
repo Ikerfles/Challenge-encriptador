@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Challenge encriptador</title>
+</head>
+<body>
+    <header class="header">
+        <a href="https://www.aluracursos.com/"><img src="assets/logo.png"></a>
+    </header>
+
+    <main class="encriptador">
+            <section class="encriptador__entrada">
+                <textarea class="encriptador__entrada__texto" id="encriptador__entrada__texto" placeholder="Ingrese el texto aqui"></textarea>
+                
+                <div class="encriptador__entrada__botones">
+                    <p class="encriptador__entrada__aviso"> <img class="encriptador__entrada__aviso__img" src="assets/alerta.png" alt="">Solo letras minusculas y sin acentos</p>
+                    <div class="encriptador__entrada__botones__boton">
+                        <button class="encriptador__entrada__botones__boton__encriptar" id="encriptador__entrada__botones__boton__encriptar">Encriptar</button>
+                        <button class="encriptador__entrada__botones__boton__desencriptar" id="encriptador__entrada__botones__boton__desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="encriptador__salida">
+                    <div class="encriptador__salida__mensaje" id="encriptador__salida__mensaje">
+                        <img class="encriptador__salida__mensaje__muñeco" src="assets/Muñeco.png" alt="Muñeco">
+                        <h2 class="encriptador__salida__mensaje__texto">Ningún mensaje fue encontrado</h2>
+                        <p class="encriptador__salida__mensaje__parrafo">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+                        <p class="encriptador__salida__texto" id="encriptador__salida__texto"></p>
+                        <div class="encriptador__salida__boton" id="encriptador__salida__boton">
+                            <button class="encriptador__salida__boton__copiar" id="encriptador__salida__boton__copiar">Copiar</button>
+                        </div>
+            </section>
+        <script src="app.js"></script>
+    </main>
+    <footer class="footer">
+        <p class="footer__texto">Creado por Iker Flores Escobar</p>
+
+        <div class="footer__redes">
+            <a href="https://github.com/Ikerfles" target="_blank"><img class="footer__redes__link" src="assets/github.png"></a>
+            <a href="https://www.linkedin.com/in/iker-flores-escobar-b7b503294/" target="_blank"><img class="footer__redes__link" src="assets/linkedin.png"></a>
+        </div>
+    </footer>
+</body>
+</html>
